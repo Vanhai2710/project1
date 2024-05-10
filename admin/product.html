@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../src/styles/projuct.css">
+    <link rel="shortcut icon" type="image/png" href=""/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="wrapper">
+    <nav class="" data-bs-theme="dark">      
+        <input type="checkbox" name="open" id="open">
+        <label for="open" class="open">
+            <i class="fas fa-bars"></i>
+        </label>      
+        <div class="menu">
+            <div class="logo">
+                <a href="#"> 
+                    <img src="../src/assets/images/logo.webp" alt="">
+                </a>               
+            </div>
+          <ul>
+              <li>
+                  <a href="#">
+                      <span><i class="fas fa-home"></i></span>
+                      Home
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                      <span><i class="fas fa-address-card"></i></span>
+                      About
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                      <span><i class="fas fa-cog"></i></span>
+                      Settings
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                      <span><i class="fas fa-address-book"></i></span>
+                      Contact
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                      <span><i class="fas fa-comments-alt-dollar"></i></span>
+                      Feedback
+                  </a>
+              </li>
+          </ul>
+        </div>
+        <button class="sign-in">Login</button>
+    </nav>
+    </div>
+    <!-- Thêm div cho bảng đăng nhập -->
+    
+    <!-- &times; -->
+    <form id="loginForm">
+        <span class="close"><i class="bi bi-x-circle"></i></span>
+        <h3>Login Here</h3>
+
+        <label for="username" class="text">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username">
+
+        <label for="password" class="text">Password</label>
+        <div class="password-container">
+            <input type="password" placeholder="Password" id="password">
+            <i class="bi bi-eye-slash"></i>
+        </div>
+
+        <button class="login"><i class="bi bi-box-arrow-in-right"></i>Login</button>
+        <div class="social">
+            <a href="#" class="google"><div class="go"><i class="bi bi-google"></i>Google</div></a>
+            <a href="#" class="facebook"><div class="fb"><i class="fa fa-facebook fa-fw"></i>Facebook</div></a>
+            <!-- <a href="#" class="facebook"><div class="fb"><i class="bi bi-facebook"></i>Facebook</div></a> -->
+        </div>
+        <a href="" class="create-account">Create an account !</a>
+    </form>
+
+    <!-- Thêm bảng đăng kí -->
+
+
+    <script src="../src/scripts/product.js"></script>
+</body>
+</html>
